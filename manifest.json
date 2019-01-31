@@ -1,12 +1,15 @@
 {
- "package": "Hello Farmware",
+ "package": "Hello Farmware Input",
  "language": "python",
  "author": "FarmBot, Inc.",
- "description": "A simple Farmware example that tells FarmBot to log a new message.",
+ "description": "A simple Farmware example that tells FarmBot to log a new message including the provided input.",
  "version": "1.0.0",
  "min_os_version_major": 6,
- "url": "https://raw.githubusercontent.com/FarmBot-Labs/hello-farmware/master/manifest.json",
- "zip": "https://github.com/FarmBot-Labs/hello-farmware/archive/master.zip",
+ "url": "https://raw.githubusercontent.com/FarmBot-Labs/hello-farmware/input/manifest.json",
+ "zip": "https://github.com/FarmBot-Labs/hello-farmware/archive/input.zip",
  "executable": "python",
- "args": ["hello-farmware-master/hello.py"]
+ "args": ["hello-farmware-input/hello.py"],
+ "config": [
+    {"name": "input", "label": "Input (anything you'd like)", "value": "default"}
+ ]
 }
