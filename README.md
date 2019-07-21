@@ -4,7 +4,7 @@ A simple Farmware example that tells FarmBot to log a new message.
 ## Install
 [Farmware page](https://my.farm.bot/app/farmware) install URL:
 ```
-https://raw.githubusercontent.com/FarmBot-Labs/hello-farmware/master/manifest.json
+https://raw.githubusercontent.com/kuruwan/hello-farmware/master/manifest.json
 ```
 
 ## Use
