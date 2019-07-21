@@ -6,7 +6,6 @@
  "version": "1.0.0",
  "min_os_version_major": 6,
  "url": "https://github.com/kuruwan/hello-farmware/blob/master/manifest.json",
- "zip": "https://github.com/FarmBot-Labs/hello-farmware/archive/master.zip",
  "executable": "python",
  "args": ["hello-farmware-master/hello.py"]
 }
